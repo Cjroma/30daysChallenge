@@ -264,6 +264,9 @@ body {
   .navbar {
     display: block;
   }
+  .project__card {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 1024px) {
