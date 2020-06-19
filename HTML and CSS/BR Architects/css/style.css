@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  background: rgb(255, 255, 255);
+  color: #000;
+}
+
+.container {
+  max-width: 1500px;
+  padding: 0 1.5em;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  background: #fff;
+  -webkit-box-shadow: 0px 4px 10px -4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 4px 10px -4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 10px -4px rgba(0, 0, 0, 0.4);
+  padding: 0.5em 1em;
+  z-index: 2;
+}
+
+.header--flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: none;
+}
+
+.navbar__list {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar__list-item {
+  display: inline-block;
+}
+
+.navbar__link {
+  letter-spacing: 3.5px;
+  font-size: 0.92rem;
+  text-decoration: none;
+  padding: 0.6em 1em;
+  font-weight: 300;
+  color: black;
+}
+.navbar__link:hover,
+.navbar__link:focus {
+  background: rgb(219, 219, 219);
+}
+
+.banner {
+  position: relative;
+  max-width: 1450px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.banner__title {
+  position: absolute;
+  top: 50%;
+  font-size: 2rem;
+  letter-spacing: 0.15em;
+}
+
+.banner__title--strong {
+  padding: 0.3em 0.5em;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.603);
+}
+
+.banner__title--thin {
+  color: #fff;
+  font-weight: 300;
+  display: none;
+}
+
+.banner__img {
+  max-width: 100%;
+  height: auto;
+  filter: brightness(0.85);
+}
+
+.section-title {
+  font-weight: 300;
+  font-size: 0.8;
+}
+.section-mt::before {
+  content: '';
+  display: block;
+  height: 5em;
+}
+
+.line-break {
+  border: none;
+  border-top: 0.1px solid rgba(200, 200, 200, 0.26);
+  margin: 1em 0;
+}
+.project__content {
+  padding: 0.5em 0;
+  width: 100%;
+  height: auto;
+}
+
+.project__card {
+  max-width: 500px;
+  margin-top: 1em;
+  position: relative;
+}
+
+.project__img {
+  max-width: 100%;
+}
+
+.project__card-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5em 1em;
+  font-weight: 300;
+  background: #000;
+  color: #fff;
+}
+
+.about__desc {
+  line-height: 1.5em;
+  font-size: 0.9rem;
+  margin-bottom: 1em;
+}
+
+.about__content {
+  width: 100%;
+  height: auto;
+  padding: 0.5em 0;
+}
+.about__card {
+  max-width: 500px;
+  height: auto;
+  margin-top: 2em;
+}
+
+.about__img {
+  filter: grayscale(0.8);
+  max-width: 100%;
+}
+.about__name {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+.about__position {
+  font-weight: 200;
+  font-size: 0.9rem;
+  color: rgb(110, 110, 110);
+}
+.about__card-desc {
+  font-weight: 200;
+  font-size: 0.9rem;
+  line-height: 1.5em;
+  color: rgb(48, 48, 48);
+}
+
+.about__btn {
+  display: block;
+  text-decoration: none;
+  font-size: 0.8;
+  color: #000;
+  background: rgb(236, 236, 236);
+  text-align: center;
+  padding: 0.6em 0;
+  border-radius: 3%;
+}
+
+.about__btn:hover,
+.about__btn:focus {
+  background: rgb(206, 206, 206);
+}
+.about-mt {
+  margin-top: 1em;
+}
+.contact_form {
+  width: 100%;
+  height: auto;
+}
+.contact__desc {
+  font-size: 0.9rem;
+}
+
+.contact__field {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1rem;
+  border: 0.5px solid rgba(207, 207, 207, 0.726);
+}
+.contact__btn {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #fff;
+  padding: 0.7em 1em;
+  background: #000;
+  cursor: pointer;
+  border: none;
+  margin-top: 2em;
+}
+.contact__btn:hover,
+.contact__btn:focus {
+  color: #000;
+  background: rgb(211, 211, 211);
+}
+
+.contact__img {
+  margin-top: 2.5em;
+  max-width: 100%;
+}
+
+.footer {
+  text-align: center;
+  padding: 2.5em 0;
+  background: #000;
+  margin-top: 0.5em;
+}
+
+.footer__text {
+  color: #fff;
+  font-size: 0.9rem;
+}
+.footer__link {
+  text-decoration: none;
+  color: rgb(128, 172, 255);
+}
+.footer__link:hover,
+.footer__link:focus {
+  color: rgba(108, 160, 255, 0.76);
+}
+.transition {
+  transition: all 0.3s;
+}
+
+@media (min-width: 550px) {
+  .about__content,
+  .project__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+  .banner__title--thin {
+    display: inline-block;
+  }
+  .navbar {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about__content,
+  .project__content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
