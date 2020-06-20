@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>Jane Bloglife</title>
   </head>
@@ -11,39 +12,39 @@
       <div class="header__item">
         <div class="header__social-media">
           <a href="#" class="header__link">
-            <svg width="32" height="32" class="header__icon">
+            <svg class="header__icon">
               <use xlink:href="img/icon/facebook.svg#facebook"></use>
             </svg>
           </a>
           <a href="#" class="header__link">
-            <svg width="32" height="32" class="header__icon">
+            <svg class="header__icon">
               <use xlink:href="img/icon/instagram.svg#instagram"></use>
             </svg>
           </a>
           <a href="#" class="header__link">
-            <svg width="32" height="32" class="header__icon">
+            <svg class="header__icon">
               <use xlink:href="img/icon/snapchat.svg#snapchat"></use>
             </svg>
           </a>
           <a href="#" class="header__link">
-            <svg width="32" height="32" class="header__icon">
+            <svg class="header__icon">
               <use xlink:href="img/icon/flickr.svg#flickr"></use>
             </svg>
           </a>
           <a href="#" class="header__link">
-            <svg width="32" height="32" class="header__icon">
+            <svg class="header__icon">
               <use xlink:href="img/icon/twitter.svg#twitter"></use>
             </svg>
           </a>
           <a href="#" class="header__link">
-            <svg width="32" height="32" class="header__icon">
+            <svg class="header__icon">
               <use xlink:href="img/icon/linkedin.svg#linkedin"></use>
             </svg>
           </a>
         </div>
         <div class="header__search">
           <a href="#" class="header__link">
-            <svg width="32" height="32" class="header__icon">
+            <svg class="header__icon">
               <use xlink:href="img/icon/search.svg#search"></use>
             </svg>
           </a>
@@ -51,415 +52,496 @@
       </div>
     </header>
     <main>
+      <section class="heading">
+        <h1 class="heading__title">Jane Bloglife</h1>
+        <p class="heading__text">
+          Welcome to the blog of
+          <span class="heading__text--black">Jane's world</span>
+        </p>
+      </section>
+      <section class="banner">
+        <img
+          src="img/banner.jpg"
+          alt="Pretty Vietnamese Girl"
+          class="banner__img"
+        />
+        <div class="banner__content">
+          <h3 class="banner__heading">Jane's</h3>
+          <h2 class="banner__heading banner__heading--large">Fashion Blog</h2>
+          <button type="button" class="banner__btn">subscribe</button>
+        </div>
+      </section>
       <div class="container">
-        <div class="grid-content">
-          <section class="heading">
-            <h2 class="heading__title">Jane Bloglife</h2>
-            <p class="heading__text">
-              Welcome to the blog of
-              <span class="heading__text--black">Jane's world</span>
-            </p>
-          </section>
-          <section class="banner">
-            <img
-              src="img/banner.jpg"
-              alt="Pretty Vietnamese Girl"
-              class="banner__img"
-            />
-            <h2 class="banner__heading">Jane's</h2>
-            <h1 class="banner__heading banner__heading--large">Fashion Blog</h1>
-            <a href="#" class="banner__btn">subscribe</a>
-          </section>
-          <section class="blog">
-            <div class="blog__post">
-              <h3 class="blog__title">Title Heading</h3>
-              <p class="blog__desc">
-                Title Description,
-                <span class="blog__desc--light">January 01 2020</span>
-              </p>
-              <img src="img/post1.jpg" alt="" class="blog__img" />
-              <p class="blog__msg">
-                <span class="blog__msg--bold">Lorem!</span> ipsum dolor sit amet
-                consectetur adipisicing elit. Repellat, velit!
-              </p>
-              <p class="blog__msg">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aliquam odio numquam minima necessitatibus asperiores! Maiores
-                quaerat in error doloremque sint sequi optio ipsa ad
-                exercitationem excepturi labore, earum, eos dolores obcaecati
-                voluptate quia officia cumque enim deleniti quisquam? Officiis
-                amet fugit illum aliquid quaerat, officia consequuntur eligendi.
-                Reprehenderit, ratione ad?
-              </p>
-              <div class="blog__flex">
-                <a href="#" class="blog__btn blog__btn--light">
-                  <svg class="blog__check-icon">
-                    <use xlink:href="img/icon/check.svg#check"></use>
-                  </svg>
-                  <svg class="blog__like-icon" width="16" height="16">
-                    <use xlink:href="img/icon/like.svg#like"></use>
-                  </svg>
-                  Like
-                </a>
-                <a href="#" class="blog__btn blog__btn--dark">
-                  Replies
-                  <span class="blog__reply-count">2</span>
-                </a>
-              </div>
-              <div class="blog__reply">
-                <div class="blog__reply-item">
-                  <img src="img/profile1.jpg" alt="" class="blog__reply-img" />
-                  <p class="blog__text">
-                    <span class="blog__text--bold">Amber</span>
-                    <span class="blog__text--light">
-                      January 04, 2020, 03:54 PM
-                    </span>
-                  </p>
-                  <p class="blog__text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Esse rem eius provident recusandae nesciunt facilis maxime
-                    et eveniet rerum, obcaecati voluptatem quo pariatur corporis
-                    distinctio odit, nam adipisci veritatis consectetur.
-                  </p>
+        <div class="grid">
+          <div class="grid-content">
+            <section class="blog">
+              <div class="blog__post">
+                <h3 class="blog__title">Title Heading</h3>
+                <p class="blog__desc">
+                  Title Description,
+                  <span class="blog__desc--light">January 01 2020</span>
+                </p>
+                <img src="img/post1.jpg" alt="" class="blog__img" />
+                <p class="blog__msg">
+                  <span class="blog__msg--bold">Lorem!</span> ipsum dolor sit
+                  amet consectetur adipisicing elit. Repellat, velit!
+                </p>
+                <p class="blog__msg">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Aliquam odio numquam minima necessitatibus asperiores! Maiores
+                  quaerat in error doloremque sint sequi optio ipsa ad
+                  exercitationem excepturi labore, earum, eos dolores obcaecati
+                  voluptate quia officia cumque enim deleniti quisquam? Officiis
+                  amet fugit illum aliquid quaerat, officia consequuntur
+                  eligendi. Reprehenderit, ratione ad?
+                </p>
+                <div class="blog__flex">
+                  <button type="button" class="blog__btn blog__btn--light">
+                    <svg class="blog__icon" width="16" height="16">
+                      <use xlink:href="img/icon/like.svg#like"></use>
+                    </svg>
+                    Like
+                  </button>
+                  <button type="button" class="blog__btn blog__btn--dark">
+                    Replies
+                    <span class="blog__reply-count">2</span>
+                  </button>
                 </div>
-                <div class="blog__reply-item">
-                  <img src="img/profile2.jpg" alt="" class="blog__reply-img" />
-                  <p class="blog__text">
-                    <span class="blog__text--bold">Amber</span>
-                    <span class="blog__text--light">
-                      January 02, 2020, 05:33 PM
-                    </span>
-                  </p>
-                  <p class="blog__text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Esse rem eius provident recusandae nesciunt facilis maxime
-                    et eveniet rerum, obcaecati voluptatem quo pariatur corporis
-                    distinctio odit, nam adipisci veritatis consectetur.
-                  </p>
+                <div class="blog__reply">
+                  <div class="blog__reply-item">
+                    <div class="blog__reply-flex">
+                      <img
+                        src="img/profile1.jpg"
+                        alt=""
+                        class="blog__reply-img"
+                      />
+                      <p class="blog__text">
+                        <span class="blog__text--bold">Philip Joe</span>
+                        <span class="blog__text--light">
+                          January 04, 2020, 03:54 PM
+                        </span>
+                      </p>
+                    </div>
+                    <p class="blog__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Esse rem eius provident recusandae nesciunt facilis maxime
+                      et eveniet rerum, obcaecati voluptatem quo pariatur
+                      corporis distinctio odit, nam adipisci veritatis
+                      consectetur.
+                    </p>
+                  </div>
+                  <div class="blog__reply-item">
+                    <div class="blog__reply-flex">
+                      <img
+                        src="img/profile2.jpg"
+                        alt=""
+                        class="blog__reply-img"
+                      />
+                      <p class="blog__text">
+                        <span class="blog__text--bold">Mark Son</span>
+                        <span class="blog__text--light">
+                          January 02, 2020, 05:33 PM
+                        </span>
+                      </p>
+                    </div>
+                    <p class="blog__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Esse rem eius provident recusandae nesciunt facilis maxime
+                      et eveniet rerum, obcaecati voluptatem quo pariatur
+                      corporis distinctio odit, nam adipisci veritatis
+                      consectetur.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="blog__post">
-              <h3 class="blog__title">Title Heading</h3>
-              <p class="blog__desc">
-                Title Description,
-                <span class="blog__desc--light">February 01 2020</span>
-              </p>
-              <img src="img/post2.jpg" alt="" class="blog__img" />
-              <p class="blog__msg">
-                <span class="blog__msg--bold">Lorem!</span> ipsum dolor sit amet
-                consectetur adipisicing elit. Repellat, velit!
-              </p>
-              <p class="blog__msg">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aliquam odio numquam minima necessitatibus asperiores! Maiores
-                quaerat in error doloremque sint sequi optio ipsa ad
-                exercitationem excepturi labore, earum, eos dolores obcaecati
-                voluptate quia officia cumque enim deleniti quisquam? Officiis
-                amet fugit illum aliquid quaerat, officia consequuntur eligendi.
-                Reprehenderit, ratione ad?
-              </p>
-              <div class="blog__flex">
-                <a href="#" class="blog__btn blog__btn--light">
-                  <svg class="blog__check-icon">
-                    <use xlink:href="img/icon/check.svg#check"></use>
-                  </svg>
-                  <svg class="blog__like-icon" width="16" height="16">
-                    <use xlink:href="img/icon/like.svg#like"></use>
-                  </svg>
-                  Like
-                </a>
-                <a href="#" class="blog__btn blog__btn--dark">
-                  Replies
-                  <span class="blog__reply-count">2</span>
-                </a>
-              </div>
-              <div class="blog__reply">
-                <div class="blog__reply-item">
-                  <img src="img/profile3.jpg" alt="" class="blog__reply-img" />
-                  <p class="blog__text">
-                    <span class="blog__text--bold">Amber</span>
-                    <span class="blog__text--light">
-                      June 11, 2020, 03:33 PM
-                    </span>
-                  </p>
-                  <p class="blog__text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Esse rem eius provident recusandae nesciunt facilis maxime
-                    et eveniet rerum, obcaecati voluptatem quo pariatur corporis
-                    distinctio odit, nam adipisci veritatis consectetur.
-                  </p>
+              <div class="blog__post">
+                <h3 class="blog__title">Title Heading</h3>
+                <p class="blog__desc">
+                  Title Description,
+                  <span class="blog__desc--light">February 01 2020</span>
+                </p>
+                <img src="img/post2.jpg" alt="" class="blog__img" />
+                <p class="blog__msg">
+                  <span class="blog__msg--bold">Lorem!</span> ipsum dolor sit
+                  amet consectetur adipisicing elit. Repellat, velit!
+                </p>
+                <p class="blog__msg">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Aliquam odio numquam minima necessitatibus asperiores! Maiores
+                  quaerat in error doloremque sint sequi optio ipsa ad
+                  exercitationem excepturi labore, earum, eos dolores obcaecati
+                  voluptate quia officia cumque enim deleniti quisquam? Officiis
+                  amet fugit illum aliquid quaerat, officia consequuntur
+                  eligendi. Reprehenderit, ratione ad?
+                </p>
+                <div class="blog__flex">
+                  <button type="button" class="blog__btn blog__btn--light">
+                    <svg class="blog__icon" width="16" height="16">
+                      <use xlink:href="img/icon/like.svg#like"></use>
+                    </svg>
+                    Like
+                  </button>
+                  <button type="button" class="blog__btn blog__btn--dark">
+                    Replies
+                    <span class="blog__reply-count">2</span>
+                  </button>
                 </div>
-                <div class="blog__reply-item">
-                  <img src="img/profile4.jpg" alt="" class="blog__reply-img" />
-                  <p class="blog__text">
-                    <span class="blog__text--bold">Amber</span>
-                    <span class="blog__text--light">
-                      February 01, 2020, 03:33 PM
-                    </span>
-                  </p>
-                  <p class="blog__text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Esse rem eius provident recusandae nesciunt facilis maxime
-                    et eveniet rerum, obcaecati voluptatem quo pariatur corporis
-                    distinctio odit, nam adipisci veritatis consectetur.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="blog__post">
-              <h3 class="blog__title">Title Heading</h3>
-              <p class="blog__desc">
-                Title Description,
-                <span class="blog__desc--light">January 12 2020</span>
-              </p>
-              <img src="img/post3.jpg" alt="" class="blog__img" />
-              <p class="blog__msg">
-                <span class="blog__msg--bold">Lorem!</span> ipsum dolor sit amet
-                consectetur adipisicing elit. Repellat, velit!
-              </p>
-              <p class="blog__msg">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aliquam odio numquam minima necessitatibus asperiores! Maiores
-                quaerat in error doloremque sint sequi optio ipsa ad
-                exercitationem excepturi labore, earum, eos dolores obcaecati
-                voluptate quia officia cumque enim deleniti quisquam? Officiis
-                amet fugit illum aliquid quaerat, officia consequuntur eligendi.
-                Reprehenderit, ratione ad?
-              </p>
-              <div class="blog__flex">
-                <a href="#" class="blog__btn blog__btn--light">
-                  <svg class="blog__check-icon">
-                    <use xlink:href="img/icon/check.svg#check"></use>
-                  </svg>
-                  <svg class="blog__like-icon" width="16" height="16">
-                    <use xlink:href="img/icon/like.svg#like"></use>
-                  </svg>
-                  Like
-                </a>
-                <a href="#" class="blog__btn blog__btn--dark">
-                  Replies
-                  <span class="blog__reply-count">2</span>
-                </a>
-              </div>
-              <div class="blog__reply">
-                <div class="blog__reply-item">
-                  <img src="img/profile5.jpg" alt="" class="blog__reply-img" />
-                  <p class="blog__text">
-                    <span class="blog__text--bold">Amber</span>
-                    <span class="blog__text--light">
-                      June 20, 2020, 03:33 PM
-                    </span>
-                  </p>
-                  <p class="blog__text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Esse rem eius provident recusandae nesciunt facilis maxime
-                    et eveniet rerum, obcaecati voluptatem quo pariatur corporis
-                    distinctio odit, nam adipisci veritatis consectetur.
-                  </p>
-                </div>
-                <div class="blog__reply-item">
-                  <img src="img/profile6.jpg" alt="" class="blog__reply-img" />
-                  <p class="blog__text">
-                    <span class="blog__text--bold">Amber</span>
-                    <span class="blog__text--light">
-                      April 12, 2020, 11:24 PM
-                    </span>
-                  </p>
-                  <p class="blog__text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Esse rem eius provident recusandae nesciunt facilis maxime
-                    et eveniet rerum, obcaecati voluptatem quo pariatur corporis
-                    distinctio odit, nam adipisci veritatis consectetur.
-                  </p>
-                </div>
-                <div class="blog__reply-item">
-                  <img src="img/profile3.jpg" alt="" class="blog__reply-img" />
-                  <p class="blog__text">
-                    <span class="blog__text--bold">Amber</span>
-                    <span class="blog__text--light">
-                      March 20, 2020, 02:33 AM
-                    </span>
-                  </p>
-                  <p class="blog__text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Esse rem eius provident recusandae nesciunt facilis maxime
-                    et eveniet rerum, obcaecati voluptatem quo pariatur corporis
-                    distinctio odit, nam adipisci veritatis consectetur.
-                  </p>
+                <div class="blog__reply">
+                  <div class="blog__reply-item">
+                    <div class="blog__reply-flex">
+                      <img
+                        src="img/profile3.jpg"
+                        alt=""
+                        class="blog__reply-img"
+                      />
+                      <p class="blog__text">
+                        <span class="blog__text--bold">Jasyon Doe</span>
+                        <span class="blog__text--light">
+                          June 11, 2020, 03:33 PM
+                        </span>
+                      </p>
+                    </div>
+                    <p class="blog__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Esse rem eius provident recusandae nesciunt facilis maxime
+                      et eveniet rerum, obcaecati voluptatem quo pariatur
+                      corporis distinctio odit, nam adipisci veritatis
+                      consectetur.
+                    </p>
+                  </div>
+                  <div class="blog__reply-item">
+                    <div class="blog__reply-flex">
+                      <img
+                        src="img/profile4.jpg"
+                        alt=""
+                        class="blog__reply-img"
+                      />
+                      <p class="blog__text">
+                        <span class="blog__text--bold">Julia White</span>
+                        <span class="blog__text--light">
+                          February 01, 2020, 03:33 PM
+                        </span>
+                      </p>
+                    </div>
+                    <p class="blog__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Esse rem eius provident recusandae nesciunt facilis maxime
+                      et eveniet rerum, obcaecati voluptatem quo pariatur
+                      corporis distinctio odit, nam adipisci veritatis
+                      consectetur.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
-          <section class="about">
-            <img
-              src="img/sidebar-profile.jpg"
-              alt="Shy pretty girl"
-              class="about__img"
-            />
-            <div class="about__wrap">
-              <h4 class="about__name">
-                My Name
+              <div class="blog__post">
+                <h3 class="blog__title">Title Heading</h3>
+                <p class="blog__desc">
+                  Title Description,
+                  <span class="blog__desc--light">January 12 2020</span>
+                </p>
+                <img src="img/post3.jpg" alt="" class="blog__img" />
+                <p class="blog__msg">
+                  <span class="blog__msg--bold">Lorem!</span> ipsum dolor sit
+                  amet consectetur adipisicing elit. Repellat, velit!
+                </p>
+                <p class="blog__msg">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Aliquam odio numquam minima necessitatibus asperiores! Maiores
+                  quaerat in error doloremque sint sequi optio ipsa ad
+                  exercitationem excepturi labore, earum, eos dolores obcaecati
+                  voluptate quia officia cumque enim deleniti quisquam? Officiis
+                  amet fugit illum aliquid quaerat, officia consequuntur
+                  eligendi. Reprehenderit, ratione ad?
+                </p>
+                <div class="blog__flex">
+                  <button type="button" class="blog__btn blog__btn--light">
+                    <svg class="blog__icon" width="16" height="16">
+                      <use xlink:href="img/icon/like.svg#like"></use>
+                    </svg>
+                    Like
+                  </button>
+                  <button type="button" class="blog__btn blog__btn--dark">
+                    Replies
+                    <span class="blog__reply-count">3</span>
+                  </button>
+                </div>
+                <div class="blog__reply">
+                  <div class="blog__reply-item">
+                    <div class="blog__reply-flex">
+                      <img
+                        src="img/profile5.jpg"
+                        alt=""
+                        class="blog__reply-img"
+                      />
+                      <p class="blog__text">
+                        <span class="blog__text--bold">James Black</span>
+                        <span class="blog__text--light">
+                          June 20, 2020, 03:33 PM
+                        </span>
+                      </p>
+                    </div>
+                    <p class="blog__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Esse rem eius provident recusandae nesciunt facilis maxime
+                      et eveniet rerum, obcaecati voluptatem quo pariatur
+                      corporis distinctio odit, nam adipisci veritatis
+                      consectetur.
+                    </p>
+                  </div>
+                  <div class="blog__reply-item">
+                    <div class="blog__reply-flex">
+                      <img
+                        src="img/profile6.jpg"
+                        alt=""
+                        class="blog__reply-img"
+                      />
+                      <p class="blog__text">
+                        <span class="blog__text--bold">Amber Red</span>
+                        <span class="blog__text--light">
+                          April 12, 2020, 11:24 PM
+                        </span>
+                      </p>
+                    </div>
+                    <p class="blog__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Esse rem eius provident recusandae nesciunt facilis maxime
+                      et eveniet rerum, obcaecati voluptatem quo pariatur
+                      corporis distinctio odit, nam adipisci veritatis
+                      consectetur.
+                    </p>
+                  </div>
+                  <div class="blog__reply-item">
+                    <div class="blog__reply-flex">
+                      <img
+                        src="img/profile3.jpg"
+                        alt=""
+                        class="blog__reply-img"
+                      />
+                      <p class="blog__text">
+                        <span class="blog__text--bold">Jayson Doe</span>
+                        <span class="blog__text--light">
+                          March 20, 2020, 02:33 AM
+                        </span>
+                      </p>
+                    </div>
+                    <p class="blog__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Esse rem eius provident recusandae nesciunt facilis maxime
+                      et eveniet rerum, obcaecati voluptatem quo pariatur
+                      corporis distinctio odit, nam adipisci veritatis
+                      consectetur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="grid-content">
+            <section class="about">
+              <img
+                src="img/sidebar-profile.jpg"
+                alt="Shy pretty girl"
+                class="about__img"
+              />
+              <div class="about__content">
+                <h4 class="about__name">
+                  My Name
+                </h4>
+                <p class="about__desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                  enim blanditiis veritatis. Nemo perspiciatis excepturi
+                  laboriosam? Voluptatum eum voluptates molestiae modi! Iste
+                  quod delectus cupiditate?
+                </p>
+              </div>
+            </section>
+            <aside class="popular">
+              <h4 class="popular__title">
+                Popular Posts
               </h4>
-              <p class="about__desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-                enim blanditiis veritatis. Nemo perspiciatis excepturi
-                laboriosam? Voluptatum eum voluptates molestiae modi! Iste quod
-                delectus cupiditate?
-              </p>
-            </div>
-          </section>
-          <aside class="popular">
-            <h4 class="popular__title">
-              Popular Posts
-            </h4>
-            <div class="popular__post">
-              <img src="" alt="" class="popular__img" />
-              <div class="popular__content">
-                <h5 class="popular__post-title">Denim</h5>
-                <p class="popular__desc">Sed mattis nunc</p>
+              <div class="popular__post">
+                <img
+                  src="img/profile1.jpg"
+                  alt="Man with cap"
+                  class="popular__img"
+                />
+                <div class="popular__content">
+                  <h5 class="popular__post-title">Denim</h5>
+                  <p class="popular__desc">Sed mattis nunc</p>
+                </div>
               </div>
-            </div>
-            <div class="popular__post">
-              <img src="" alt="" class="popular__img" />
-              <div class="popular__content">
-                <h5 class="popular__post-title">Sweaters</h5>
-                <p class="popular__desc">Praes tinci sed</p>
+              <div class="popular__post">
+                <img
+                  src="img/profile3.jpg"
+                  alt="Man in jacket"
+                  class="popular__img"
+                />
+                <div class="popular__content">
+                  <h5 class="popular__post-title">Sweaters</h5>
+                  <p class="popular__desc">Praes tinci sed</p>
+                </div>
               </div>
-            </div>
-            <div class="popular__post">
-              <img src="" alt="" class="popular__img" />
-              <div class="popular__content">
-                <h5 class="popular__post-title">Workshop</h5>
-                <p class="popular__desc">Ultricies congue</p>
+              <div class="popular__post">
+                <img
+                  src="img/profile6.jpg"
+                  alt="Lady in red"
+                  class="popular__img"
+                />
+                <div class="popular__content">
+                  <h5 class="popular__post-title">Workshop</h5>
+                  <p class="popular__desc">Ultricies congue</p>
+                </div>
               </div>
-            </div>
-            <div class="popular__post">
-              <img src="" alt="" class="popular__img" />
-              <div class="popular__content">
-                <h5 class="popular__post-title">Trends</h5>
-                <p class="popular__desc">Lorem, ipsum dolor.</p>
+              <div class="popular__post">
+                <img src="img/profile4.jpg" alt="" class="popular__img" />
+                <div class="popular__content">
+                  <h5 class="popular__post-title">Trends</h5>
+                  <p class="popular__desc">Lorem, ipsum dolor.</p>
+                </div>
               </div>
-            </div>
-          </aside>
-          <aside class="advertise">
-            <h4 class="advertise__title">Advertise</h4>
-            <div class="advertise__content">Your Ad Here</div>
-          </aside>
-          <aside class="tag">
-            <h4 class="tag__title">Tags</h4>
-            <div class="tag__content">
-              <span class="tag__text tag__text--dark">Fashion</span>
-              <span class="tag__text tag__text--light">New York</span>
-              <span class="tag__text tag__text--light">London</span>
-              <span class="tag__text tag__text--light">Hats</span>
-              <span class="tag__text tag__text--light">Norway</span>
-              <span class="tag__text tag__text--light">Sweaters</span>
-              <span class="tag__text tag__text--light">Ideas</span>
-              <span class="tag__text tag__text--light">Deals</span>
-              <span class="tag__text tag__text--light">Accessories</span>
-              <span class="tag__text tag__text--light">News</span>
-              <span class="tag__text tag__text--light">Clothing</span>
-              <span class="tag__text tag__text--light">Shopping</span>
-              <span class="tag__text tag__text--light">Jeans</span>
-              <span class="tag__text tag__text--light">Trends</span>
-              <span class="tag__text tag__text--light">Aegon</span>
-            </div>
-          </aside>
-          <aside class="inspiration">
-            <h4 class="inpiration__title">Inspiration</h4>
-            <div class="inspiration__content">
-              <img
-                src="img/sidebar-img1.jpg"
-                alt="Lady in orange sweater"
-                class="inspiration__img"
-              />
-              <img
-                src="img/sidebar-img2.jpg"
-                alt="Man in black and black background"
-                class="inspiration__img"
-              />
-              <img
-                src="img/sidebar-img3.jpg"
-                alt="Lady in White"
-                class="inspiration__img"
-              />
-              <img
-                src="img/sidebar-img4.jpg"
-                alt="Man with glass in gray sweater"
-                class="inspiration__img"
-              />
-            </div>
-          </aside>
-          <aside class="follow">
-            <h4 class="follow__title">Follow Me</h4>
-            <div class="follow__content">
-              <a href="#" class="follow__link">
-                <svg class="follow__icon">
-                  <use xlink:href="img/icon/facebook.svg#facebook"></use>
-                </svg>
-              </a>
-              <a href="#" class="follow__link">
-                <svg class="follow__icon">
-                  <use xlink:href="img/icon/twitter.svg#twitter"></use>
-                </svg>
-              </a>
-              <a href="#" class="follow__link">
-                <svg class="follow__icon">
-                  <use xlink:href="img/icon/snapchat.svg#snapchat"></use>
-                </svg>
-              </a>
-              <a href="#" class="follow__link">
-                <svg class="follow__icon">
-                  <use xlink:href="img/icon/linkedin.svg#linkedin"></use>
-                </svg>
-              </a>
-              <a href="#" class="follow__link">
-                <svg class="follow__icon">
-                  <use xlink:href="img/icon/instagram.svg#instagram"></use>
-                </svg>
-              </a>
-            </div>
-          </aside>
-          <aside class="subscribe">
-            <h4 class="subscribe__title">Subscribe</h4>
-            <form action="#" class="subscribe__form">
-              <p class="form__desc">
-                Enter your e-mail below and get notified on the latest blog
-                posts.
-              </p>
-              <input type="email" name="email" id="email" class="form__email" />
-              <input type="submit" value="Submit" class="form__btn" />
-            </form>
-          </aside>
+            </aside>
+            <aside class="advertise">
+              <h4 class="advertise__title">Advertise</h4>
+              <div class="advertise__content">
+                <span class="advertise__text">Your Ad Here</span>
+              </div>
+            </aside>
+            <aside class="tag">
+              <h4 class="tag__title">Tags</h4>
+              <div class="tag__content">
+                <span class="tag__text tag__text--dark">Fashion</span>
+                <span class="tag__text tag__text--light">New York</span>
+                <span class="tag__text tag__text--light">London</span>
+                <span class="tag__text tag__text--light">Hats</span>
+                <span class="tag__text tag__text--light">Norway</span>
+                <span class="tag__text tag__text--light">Sweaters</span>
+                <span class="tag__text tag__text--light">Ideas</span>
+                <span class="tag__text tag__text--light">Deals</span>
+                <span class="tag__text tag__text--light">Accessories</span>
+                <span class="tag__text tag__text--light">News</span>
+                <span class="tag__text tag__text--light">Clothing</span>
+                <span class="tag__text tag__text--light">Shopping</span>
+                <span class="tag__text tag__text--light">Jeans</span>
+                <span class="tag__text tag__text--light">Trends</span>
+                <span class="tag__text tag__text--light">Aegon</span>
+              </div>
+            </aside>
+            <aside class="inspiration">
+              <h4 class="inspiration__title">Inspiration</h4>
+              <div class="inspiration__content">
+                <img
+                  src="img/sidebar-img2.jpg"
+                  alt="Man in black and black background"
+                  class="inspiration__img"
+                />
+                <img
+                  src="img/sidebar-img1.jpg"
+                  alt="Lady in orange sweater"
+                  class="inspiration__img"
+                />
+                <img
+                  src="img/sidebar-img3.jpg"
+                  alt="Lady in White"
+                  class="inspiration__img"
+                />
+                <img
+                  src="img/sidebar-img4.jpg"
+                  alt="Man with glass in gray sweater"
+                  class="inspiration__img"
+                />
+              </div>
+            </aside>
+            <aside class="follow">
+              <h4 class="follow__title">Follow Me</h4>
+              <div class="follow__content">
+                <a href="#" class="follow__link">
+                  <svg class="follow__icon">
+                    <use xlink:href="img/icon/facebook.svg#facebook"></use>
+                  </svg>
+                </a>
+                <a href="#" class="follow__link">
+                  <svg class="follow__icon">
+                    <use xlink:href="img/icon/twitter.svg#twitter"></use>
+                  </svg>
+                </a>
+                <a href="#" class="follow__link">
+                  <svg class="follow__icon">
+                    <use xlink:href="img/icon/snapchat.svg#snapchat"></use>
+                  </svg>
+                </a>
+                <a href="#" class="follow__link">
+                  <svg class="follow__icon">
+                    <use xlink:href="img/icon/linkedin.svg#linkedin"></use>
+                  </svg>
+                </a>
+                <a href="#" class="follow__link">
+                  <svg class="follow__icon">
+                    <use xlink:href="img/icon/instagram.svg#instagram"></use>
+                  </svg>
+                </a>
+              </div>
+            </aside>
+            <aside class="subscribe">
+              <h4 class="subscribe__title">Subscribe</h4>
+              <form action="#" class="subscribe__form">
+                <p class="subscribe__desc">
+                  Enter your e-mail below and get notified on the latest blog
+                  posts.
+                </p>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="subscribe__email"
+                  placeholder="Enter your email"
+                />
+                <input type="submit" value="Submit" class="subscribe__btn" />
+              </form>
+            </aside>
+          </div>
         </div>
       </div>
     </main>
-    <div class="subscribe__modal">
-      <h4 class="subscribe__title">Subscribe</h4>
-      <form action="#" class="subscribe__form">
-        <p class="form__desc">
-          Enter your e-mail below and get notified on the latest blog posts.
-        </p>
-        <input type="email" name="email" id="email" class="form__email" />
-        <input type="submit" value="Submit" class="form__btn" />
-      </form>
+    <div class="modal">
+      <div class="subscribe__modal">
+        <h4 class="subscribe__title subscribe__title--light">Subscribe</h4>
+        <a href="#" class="subscribe__close">
+          <svg class="subscribe__icon">
+            <use xlink:href="img/icon/close.svg#close"></use>
+          </svg>
+        </a>
+        <form action="#" class="subscribe__form">
+          <p class="subscribe__desc">
+            Enter your e-mail below and get notified on the latest blog posts.
+          </p>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="subscribe__email-modal"
+            placeholder="Enter your email"
+          />
+          <input type="submit" value="Submit" class="subscribe__btn-modal" />
+        </form>
+      </div>
     </div>
     <footer class="footer">
-      <a href="#" class="footer__to-top">
-        <svg class="footer__icon">
-          <use xlink:href="img/icon/arrow-up.svg#arrow-up"></use>
-        </svg>
-        To the top
-      </a>
-      <p class="footer__text">
-        Inspired by
-        <a
-          href="https://www.w3schools.com/w3css/tryw3css_templates_fashion_blog.htm"
-          class="footer__link"
-          >W3schools
+      <div class="footer__wrap">
+        <p class="footer__text">
+          Inspired by
+          <a
+            href="https://www.w3schools.com/w3css/tryw3css_templates_fashion_blog.htm"
+            class="footer__link"
+            >W3schools
+          </a>
+        </p>
+        <a href="#" class="footer__to-top">
+          <svg class="footer__icon">
+            <use xlink:href="img/icon/arrow-up.svg#arrow-up"></use>
+          </svg>
+          <span>To the top</span>
         </a>
-      </p>
+      </div>
     </footer>
   </body>
 </html>
