@@ -93,6 +93,9 @@
               </p>
               <div class="blog__flex">
                 <a href="#" class="blog__btn blog__btn--light">
+                  <svg class="blog__check-icon">
+                    <use xlink:href="img/icon/check.svg#check"></use>
+                  </svg>
                   <svg class="blog__like-icon" width="16" height="16">
                     <use xlink:href="img/icon/like.svg#like"></use>
                   </svg>
@@ -158,6 +161,9 @@
               </p>
               <div class="blog__flex">
                 <a href="#" class="blog__btn blog__btn--light">
+                  <svg class="blog__check-icon">
+                    <use xlink:href="img/icon/check.svg#check"></use>
+                  </svg>
                   <svg class="blog__like-icon" width="16" height="16">
                     <use xlink:href="img/icon/like.svg#like"></use>
                   </svg>
@@ -223,6 +229,9 @@
               </p>
               <div class="blog__flex">
                 <a href="#" class="blog__btn blog__btn--light">
+                  <svg class="blog__check-icon">
+                    <use xlink:href="img/icon/check.svg#check"></use>
+                  </svg>
                   <svg class="blog__like-icon" width="16" height="16">
                     <use xlink:href="img/icon/like.svg#like"></use>
                   </svg>
@@ -300,7 +309,7 @@
               </p>
             </div>
           </section>
-          <section class="popular">
+          <aside class="popular">
             <h4 class="popular__title">
               Popular Posts
             </h4>
@@ -332,12 +341,12 @@
                 <p class="popular__desc">Lorem, ipsum dolor.</p>
               </div>
             </div>
-          </section>
-          <section class="advertise">
+          </aside>
+          <aside class="advertise">
             <h4 class="advertise__title">Advertise</h4>
             <div class="advertise__content">Your Ad Here</div>
-          </section>
-          <section class="tag">
+          </aside>
+          <aside class="tag">
             <h4 class="tag__title">Tags</h4>
             <div class="tag__content">
               <span class="tag__text tag__text--dark">Fashion</span>
@@ -356,9 +365,101 @@
               <span class="tag__text tag__text--light">Trends</span>
               <span class="tag__text tag__text--light">Aegon</span>
             </div>
-          </section>
+          </aside>
+          <aside class="inspiration">
+            <h4 class="inpiration__title">Inspiration</h4>
+            <div class="inspiration__content">
+              <img
+                src="img/sidebar-img1.jpg"
+                alt="Lady in orange sweater"
+                class="inspiration__img"
+              />
+              <img
+                src="img/sidebar-img2.jpg"
+                alt="Man in black and black background"
+                class="inspiration__img"
+              />
+              <img
+                src="img/sidebar-img3.jpg"
+                alt="Lady in White"
+                class="inspiration__img"
+              />
+              <img
+                src="img/sidebar-img4.jpg"
+                alt="Man with glass in gray sweater"
+                class="inspiration__img"
+              />
+            </div>
+          </aside>
+          <aside class="follow">
+            <h4 class="follow__title">Follow Me</h4>
+            <div class="follow__content">
+              <a href="#" class="follow__link">
+                <svg class="follow__icon">
+                  <use xlink:href="img/icon/facebook.svg#facebook"></use>
+                </svg>
+              </a>
+              <a href="#" class="follow__link">
+                <svg class="follow__icon">
+                  <use xlink:href="img/icon/twitter.svg#twitter"></use>
+                </svg>
+              </a>
+              <a href="#" class="follow__link">
+                <svg class="follow__icon">
+                  <use xlink:href="img/icon/snapchat.svg#snapchat"></use>
+                </svg>
+              </a>
+              <a href="#" class="follow__link">
+                <svg class="follow__icon">
+                  <use xlink:href="img/icon/linkedin.svg#linkedin"></use>
+                </svg>
+              </a>
+              <a href="#" class="follow__link">
+                <svg class="follow__icon">
+                  <use xlink:href="img/icon/instagram.svg#instagram"></use>
+                </svg>
+              </a>
+            </div>
+          </aside>
+          <aside class="subscribe">
+            <h4 class="subscribe__title">Subscribe</h4>
+            <form action="#" class="subscribe__form">
+              <p class="form__desc">
+                Enter your e-mail below and get notified on the latest blog
+                posts.
+              </p>
+              <input type="email" name="email" id="email" class="form__email" />
+              <input type="submit" value="Submit" class="form__btn" />
+            </form>
+          </aside>
         </div>
       </div>
     </main>
+    <div class="subscribe__modal">
+      <h4 class="subscribe__title">Subscribe</h4>
+      <form action="#" class="subscribe__form">
+        <p class="form__desc">
+          Enter your e-mail below and get notified on the latest blog posts.
+        </p>
+        <input type="email" name="email" id="email" class="form__email" />
+        <input type="submit" value="Submit" class="form__btn" />
+      </form>
+    </div>
+    <footer class="footer">
+      <a href="#" class="footer__to-top">
+        <svg class="footer__icon">
+          <use xlink:href="img/icon/arrow-up.svg#arrow-up"></use>
+        </svg>
+        To the top
+      </a>
+      <p class="footer__text">
+        Inspired by
+        <a
+          href="https://www.w3schools.com/w3css/tryw3css_templates_fashion_blog.htm"
+          class="footer__link"
+          >W3schools
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
