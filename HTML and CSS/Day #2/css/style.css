@@ -158,6 +158,16 @@ body {
 .blog {
   width: 100%;
 }
+.about,
+.popular,
+.advertise,
+.tag,
+.inspiration,
+.follow,
+.subscribe,
+.blog__post {
+  box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.116);
+}
 
 .blog__post {
   background: #fff;
@@ -527,7 +537,7 @@ body {
 .footer {
   width: 100%;
   padding: 3em 2em;
-  background: rgb(170, 170, 170);
+  background: rgb(14, 14, 14);
 }
 
 .footer__wrap {
@@ -540,16 +550,17 @@ body {
 }
 .footer__to-top {
   text-decoration: none;
-  color: #fff;
-  background: #000;
+  color: rgb(15, 15, 15);
+  background: rgb(246, 246, 246);
   padding: 0.5em 1em;
   display: flex;
   align-items: center;
   transition: all 0.3s;
+  border-radius: 5%;
 }
 
 .footer__icon {
-  fill: #fff;
+  fill: rgb(15, 15, 15);
   width: 18px;
   height: 18px;
   margin-right: 0.2em;
@@ -557,11 +568,12 @@ body {
 
 .footer__to-top:hover,
 .footer__to-top:focus {
-  background: rgba(0, 0, 0, 0.616);
+  background: rgba(185, 185, 185, 0.616);
 }
 
 .footer__text {
   font-size: 1.1rem;
+  color: #fff;
 }
 
 .footer__link {
