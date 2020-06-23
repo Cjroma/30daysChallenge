@@ -2,6 +2,6 @@
 
 I made a simple pricing page!
 
-![Demo 1](img/demo.png)
+![Demo 1](img/demo1.png)
 
 ## Inspired by [UI DAILY DESIGN](https://uidesigndaily.com/posts/sketch-pricing-page-table-subscription-card-cards-day-1116)
