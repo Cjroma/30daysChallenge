@@ -1,4 +1,4 @@
-# Day 2 of HTML and CSS Challenge
+# Day 3 of HTML and CSS Challenge
 
 I made a simple pricing page!
 
