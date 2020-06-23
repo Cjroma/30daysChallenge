@@ -6,3 +6,4 @@ This is my HTML and CSS challenge to improve my skill! I hope that by the end of
 
 1. Day #1 - BR Architect (Responsive Design)
 2. Day #2 - I created a simple and responsive blog site with HTML and CSS
+3. Day #3 - I created a responsive component (pricing page) with HTML and CSS
